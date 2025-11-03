@@ -1,0 +1,49 @@
+/* assets/css/layout/_hero.css (Usando nomenclatura BEM) */
+
+/* BLOCO: .hero */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 3rem;
+}
+
+/* ELEMENTO: .hero__content */
+.hero__content {
+    max-width: 900px; /* Limite de largura para o texto */
+    width: 100%;
+    text-align: left;
+}
+
+/* ELEMENTO: .hero__emoji */
+.hero__emoji {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+/* ELEMENTO: .hero__heading */
+.hero__heading {
+    font-size: var(--font-size-heading);
+    font-weight: 800;
+    margin-bottom: 2rem;
+    letter-spacing: -0.025em;
+    /* Aplicando a fonte de personalidade: Lostar */
+    font-family: 'Lostar', sans-serif; 
+}
+
+/* ELEMENTO: .hero__paragraph */
+.hero__paragraph {
+    font-size: var(--font-size-paragraph);
+    margin-bottom: 2.5rem;
+    line-height: 1.5;
+    max-width: 800px;
+}
+
+/* MODIFICADOR/DETALHE: Contato (usando Space Mono) */
+.hero__contact-links {
+    font-family: "Space Mono", monospace;
+    font-size: 1.2rem;
+    color: #6b7280;
+    margin-top: 1.5rem;
+}
