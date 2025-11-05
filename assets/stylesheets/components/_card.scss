@@ -1,0 +1,80 @@
+.project-card {
+  background-color: var(--color-backgound);
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+    transform: translateY(-5px);
+  }
+}
+
+.project-card__header {
+  margin-bottom: 1.5rem;
+}
+
+.project-card__title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 0.75rem;
+}
+
+.project-card__description {
+  font-size: 1.1rem;
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.project-card__links {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.project-card__link {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.9rem;
+  color: var(--color-link);
+  text-decoration: none;
+  font-weight: 500;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.project-card__tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.tech-tag--ruby {
+  background-color: #cc342d1a;
+  color: #cc342d;
+}
+.tech-tag--db {
+  background-color: #3367911a;
+  color: #336791;
+}
+.tech-tag--js {
+  background-color: #f7df1e1a;
+  color: #f7df1e;
+}
+
+.tech-tag--testing {
+    background-color: #a453981a; // RSpec light (roxo)
+    color: #a45398;
+}
+.tech-tag--front {
+    background-color: #41b8831a; // Front-end/Vue light (verde)
+    color: #41b883;
+}

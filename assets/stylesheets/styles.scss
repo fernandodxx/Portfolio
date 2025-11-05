@@ -2,9 +2,11 @@
 
 // 2. LAYOUT (Estrutura de Páginas e Seções Principais)
 @use 'layout/hero' as *;
+@use 'layout/projects' as *;
 
 // 3. COMPONENTES (Botões, Cartões, Navbar - Reutilizáveis)
 @use 'components/button' as *;
+@use 'components/card' as *;
 
 @import url('https://fonts.cdnfonts.com/css/lostar');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
