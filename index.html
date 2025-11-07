@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <link href="assets/css/styles.css" rel="stylesheet">
   </head>
-  <body>
+  <body> 
     <main class="hero">
       <section class="hero__content">
         <p class="hero__emoji">🧑‍💻</p>
@@ -35,114 +35,120 @@
 
       </section>
     </main>
-    <div class="projects__grid">
-    <article class="project-card">
-        <header class="project-card__header">
-            <h3 class="project-card__title">Sistema de Gestão de Clientes (SGC)</h3>
-            <div class="project-card__tech-stack">
+    <section class="projects">
+      <div class="projects__content">
+        <h2 class="projects__heading">My Projects</h2>
+
+        <div class="projects__grid">
+          <article class="project-card">
+            <header class="project-card__header">
+              <h3 class="project-card__title">Sistema de Gestão de Clientes (SGC)</h3>
+              <div class="project-card__tech-stack">
                 <span class="tech-tag tech-tag--ruby">Ruby on Rails</span>
                 <span class="tech-tag tech-tag--db">PostgreSQL</span>
                 <span class="tech-tag tech-tag--js">JavaScript</span>
+              </div>
+            </header>
+            <p class="project-card__description">
+              Aplicação Full-Stack desenvolvida para otimizar o fluxo de trabalho de pequenas empresas, focando em performance de consultas SQL e APIs REST eficientes.
+            </p>
+            <div class="project-card__links">
+              <a href="#" target="_blank" class="project-card__link">Ver Código (GitHub)</a>
+              <a href="#" target="_blank" class="project-card__link">Demo Online &rarr;</a>
             </div>
-        </header>
-        <p class="project-card__description">
-            Aplicação Full-Stack desenvolvida para otimizar o fluxo de trabalho de pequenas empresas, focando em performance de consultas SQL e APIs REST eficientes.
-        </p>
-        <div class="project-card__links">
-            <a href="#" target="_blank" class="project-card__link">Ver Código (GitHub)</a>
-            <a href="#" target="_blank" class="project-card__link">Demo Online &rarr;</a>
-        </div>
-    </article>
+          </article>
 
-    <article class="project-card">
-        <header class="project-card__header">
-            <h3 class="project-card__title">E-commerce API + Admin</h3>
-            <div class="project-card__tech-stack">
+          <article class="project-card">
+            <header class="project-card__header">
+              <h3 class="project-card__title">E-commerce API + Admin</h3>
+              <div class="project-card__tech-stack">
                 <span class="tech-tag tech-tag--ruby">Ruby on Rails</span>
                 <span class="tech-tag tech-tag--db">PostgreSQL</span>
                 <span class="tech-tag tech-tag--testing">RSpec</span>
+              </div>
+            </header>
+            <p class="project-card__description">
+              Criação de uma API robusta e escalável para e-commerce, com gestão de inventário, pedidos e autenticação JWT. Foco em testes de integração e unitários com RSpec.
+            </p>
+            <div class="project-card__links">
+              <a href="#" target="_blank" class="project-card__link">Ver Código (GitHub)</a>
+              <a href="#" target="_blank" class="project-card__link">Documentação &rarr;</a>
             </div>
-        </header>
-        <p class="project-card__description">
-            Criação de uma API robusta e escalável para e-commerce, com gestão de inventário, pedidos e autenticação JWT. Foco em testes de integração e unitários com RSpec.
-        </p>
-        <div class="project-card__links">
-            <a href="#" target="_blank" class="project-card__link">Ver Código (GitHub)</a>
-            <a href="#" target="_blank" class="project-card__link">Documentação &rarr;</a>
-        </div>
-    </article>
+          </article>
 
-    <article class="project-card">
-        <header class="project-card__header">
-            <h3 class="project-card__title">Sistema de Reserva de Salas</h3>
-            <div class="project-card__tech-stack">
+          <article class="project-card">
+            <header class="project-card__header">
+              <h3 class="project-card__title">Sistema de Reserva de Salas</h3>
+              <div class="project-card__tech-stack">
                 <span class="tech-tag tech-tag--ruby">ActionCable (WS)</span>
                 <span class="tech-tag tech-tag--js">Stimulus.js</span>
                 <span class="tech-tag tech-tag--db">PostgreSQL</span>
+              </div>
+            </header>
+            <p class="project-card__description">
+              Aplicação em tempo real para reserva de salas e recursos. Utiliza ActionCable para notificações instantâneas sobre disponibilidade e atualizações de agenda.
+            </p>
+            <div class="project-card__links">
+              <a href="#" target="_blank" class="project-card__link">Ver Código (GitHub)</a>
+              <a href="#" target="_blank" class="project-card__link">Demo Online &rarr;</a>
             </div>
-        </header>
-        <p class="project-card__description">
-            Aplicação em tempo real para reserva de salas e recursos. Utiliza ActionCable para notificações instantâneas sobre disponibilidade e atualizações de agenda.
-        </p>
-        <div class="project-card__links">
-            <a href="#" target="_blank" class="project-card__link">Ver Código (GitHub)</a>
-            <a href="#" target="_blank" class="project-card__link">Demo Online &rarr;</a>
-        </div>
-    </article>
+          </article>
 
-    <article class="project-card">
-        <header class="project-card__header">
-            <h3 class="project-card__title">Gerenciador de Conteúdo (CMS)</h3>
-            <div class="project-card__tech-stack">
+          <article class="project-card">
+            <header class="project-card__header">
+              <h3 class="project-card__title">Gerenciador de Conteúdo (CMS)</h3>
+              <div class="project-card__tech-stack">
                 <span class="tech-tag tech-tag--ruby">Rails 7</span>
                 <span class="tech-tag tech-tag--db">Active Storage</span>
                 <span class="tech-tag tech-tag--front">HTML/CSS/JS</span>
+              </div>
+            </header>
+            <p class="project-card__description">
+              CMS simples para pequenos blogs e portfólios. Implementação de upload de arquivos via Active Storage e design modular utilizando SASS/BEM.
+            </p>
+            <div class="project-card__links">
+              <a href="#" target="_blank" class="project-card__link">Ver Código (GitHub)</a>
+              <a href="#" target="_blank" class="project-card__link">Demo Online &rarr;</a>
             </div>
-        </header>
-        <p class="project-card__description">
-            CMS simples para pequenos blogs e portfólios. Implementação de upload de arquivos via Active Storage e design modular utilizando SASS/BEM.
-        </p>
-        <div class="project-card__links">
-            <a href="#" target="_blank" class="project-card__link">Ver Código (GitHub)</a>
-            <a href="#" target="_blank" class="project-card__link">Demo Online &rarr;</a>
-        </div>
-    </article>
+          </article>
 
-    <article class="project-card">
-        <header class="project-card__header">
-            <h3 class="project-card__title">Painel de Métricas SQL</h3>
-            <div class="project-card__tech-stack">
+          <article class="project-card">
+            <header class="project-card__header">
+              <h3 class="project-card__title">Painel de Métricas SQL</h3>
+              <div class="project-card__tech-stack">
                 <span class="tech-tag tech-tag--db">SQL Avançado</span>
                 <span class="tech-tag tech-tag--ruby">Ruby</span>
                 <span class="tech-tag tech-tag--front">Charting (JS)</span>
+              </div>
+            </header>
+            <p class="project-card__description">
+              Ferramenta interna que gera relatórios complexos. O foco principal foi a otimização de consultas SQL em bases de dados grandes (PostgreSQL) para alta performance.
+            </p>
+            <div class="project-card__links">
+              <a href="#" target="_blank" class="project-card__link">Ver Código (GitHub)</a>
+              <a href="#" target="_blank" class="project-card__link">Demo Online &rarr;</a>
             </div>
-        </header>
-        <p class="project-card__description">
-            Ferramenta interna que gera relatórios complexos. O foco principal foi a otimização de consultas SQL em bases de dados grandes (PostgreSQL) para alta performance.
-        </p>
-        <div class="project-card__links">
-            <a href="#" target="_blank" class="project-card__link">Ver Código (GitHub)</a>
-            <a href="#" target="_blank" class="project-card__link">Demo Online &rarr;</a>
-        </div>
-    </article>
+          </article>
 
-    <article class="project-card">
-        <header class="project-card__header">
-            <h3 class="project-card__title">Desafio Pessoal: Mini-Trello</h3>
-            <div class="project-card__tech-stack">
+          <article class="project-card">
+            <header class="project-card__header">
+              <h3 class="project-card__title">Desafio Pessoal: Mini-Trello</h3>
+              <div class="project-card__tech-stack">
                 <span class="tech-tag tech-tag--front">Drag & Drop (JS)</span>
                 <span class="tech-tag tech-tag--ruby">Ruby on Rails</span>
                 <span class="tech-tag tech-tag--db">PostgreSQL</span>
+              </div>
+            </header>
+            <p class="project-card__description">
+              Implementação de um sistema Kanban simplificado (Mini-Trello) como prova de conceito, demonstrando proficiência em lógica Full-Stack e manipulação avançada de DOM com JavaScript.
+            </p>
+            <div class="project-card__links">
+              <a href="#" target="_blank" class="project-card__link">Ver Código (GitHub)</a>
+              <a href="#" target="_blank" class="project-card__link">Demo Online &rarr;</a>
             </div>
-        </header>
-        <p class="project-card__description">
-            Implementação de um sistema Kanban simplificado (Mini-Trello) como prova de conceito, demonstrando proficiência em lógica Full-Stack e manipulação avançada de DOM com JavaScript.
-        </p>
-        <div class="project-card__links">
-            <a href="#" target="_blank" class="project-card__link">Ver Código (GitHub)</a>
-            <a href="#" target="_blank" class="project-card__link">Demo Online &rarr;</a>
+          </article>
         </div>
-    </article>
-    </div>
+      </div>
+    </section>
   </body>
-</html>
+ </html>
